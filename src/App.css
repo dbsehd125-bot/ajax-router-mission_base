@@ -1,0 +1,97 @@
+#root {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    gap: 12px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+header nav a.active {
+    font-weight: bold;
+}
+
+section {
+    margin-top: 32px;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+li p {
+    margin: 4px 0 0;
+    color: #555;
+    font-size: 14px;
+}
+
+li span {
+    margin-left: 8px;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 16px;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+button {
+    width: fit-content;
+    padding: 8px;
+    cursor: pointer;
+}
+
+section>div {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    align-items: center;
+}
