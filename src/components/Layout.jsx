@@ -1,4 +1,3 @@
-// Layout.jsx - Outlet을 활용한 중첩 라우트 레이아웃
 import { Outlet } from "react-router";
 import Header from "./Header";
 
