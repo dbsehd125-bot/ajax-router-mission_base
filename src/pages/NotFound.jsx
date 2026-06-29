@@ -1,4 +1,3 @@
-// NotFound.jsx - 404 페이지
 import { Link } from "react-router";
 
 export default function NotFound() {
