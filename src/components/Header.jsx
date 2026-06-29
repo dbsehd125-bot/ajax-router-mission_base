@@ -1,4 +1,3 @@
-// Header.jsx - 공용 헤더 (네비게이션 포함)
 import { Link, NavLink } from "react-router";
 
 export default function Header() {
